@@ -171,8 +171,7 @@ harley=enemy(100,440,50,50,450)
 shootloop=0
 font=pygame.font.SysFont('comicsans',30,True,True)
 bullets=[]
-#if  not harley.visible:
-#    pygame.display.update()
+
 
 while run:
     clock.tick(27)
